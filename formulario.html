@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Localero</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+<!--        Fuentes importadas desde google fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>        
+    </head>
+    <body>
+        <aside id="contenedorprincipal">
+            <aside id="izquierdapubli" class="publicidad">
+            <img src="publicidad_lateral.png">
+            </aside>
+            <aside id="contenidocentral">
+                <aside id="toppubli" class="publicidad">
+                    <img src="/publicidad_superior.png">
+                </aside>
+                <header>
+                    <img id="nombreperiodico" src="banner_nombre_2.png">
+                </header>
+                <nav>
+                        <ul id="menuCategorias">
+                            <li><a id="index" class="categoria" href="index.html">Principal</a></li>
+                            <li><a id="internacional" class="categoria" href="internacional.html" data-categoria = "internacional">Internacional</a></li>
+                            <li><a id="economia" class="categoria" href="economia.html" data-categoria = "economia">Economia</a></li>
+                            <li><a id="deportes" class="categoria" href="deportes.html" data-categoria = "deportes">Deportes</a></li>
+                            <li><a id="cultura" class="categoria" href="cultura.html" data-categoria = "cultura">Cultura</a></li>
+                            <li><a id="sociedad" class="categoria" href="sociedad.html" data-categoria = "sociedad">Sociedad</a></li>
+                        </ul>
+                    </nav>
+                
+                    
+<!----------COLUMNA 1----------------->
+                        
+                <section class="noticia">
+                         
+                        <form  method="post" class="formulario_suscripcion">
+                           <h1>Suscripción a El Localero</h1>
+                           <p>
+                               <label for="nombre">Nombre</label>
+                               <input name="nombre" id="nombre" type="text" required />
+                           </p>
+                            <p>
+                               <label for="apellidos">Apellidos</label>
+                               <input name="apellidos" id="apellidos" type="text" required />
+                           </p>
+                           <p>
+                               <label for="email">Correo</label>
+                               <input name="email" id="email" type="email" required />
+                           </p>
+                           <p>
+                               <label for="telefono">Telefono</label>
+                               <input name="telefono" id="telefono" type="tel" />
+                           </p>
+                            <p>
+                               <label for="fecha">F. Nacimiento</label>
+                               <input name="fecha" id="fecha" type="date" />
+                           </p>
+                           
+                            <h1>Elige tu plan de precios:</h1>
+                            <input type="radio" name="precio" id="boton1" value="Option - 01"><label for="boton1"></label>
+                            <input type="radio" name="precio" id="boton2" value="Option - 02"><label for="boton2"></label>
+                            <input type="radio" name="precio" id="boton3" value="Option - 03"><label for="boton3"></label>
+                            
+                           <p><input type="submit" value="Confirmar" /></p>
+                        </form>
+                </section>
+            </aside>
+    
+            <aside id="derechapubli" class="publicidad">
+                <img src="publicidad_lateral.png">
+            </aside>
+
+    <!---------------FOOTER------------------>
+            
+            <footer id="footer">
+    <aside class="cajaBotones">
+            <a class="botonesFooter" href="formulario.html"> Suscribete</a>
+            <a class="botonesFooter" type="email" href="ivanortegaalba@gmail.com"> Contacto</a>
+            <a class="botonesFooter" href="como-se-hizo.pdf"> Como se hizo</a>
+    </aside>
+    <aside class="informacionPersonal">
+            <p>Tecnologías Web, 3º Grado en Ingeniería Informática (TIC)</p>
+            <address><p>C/Profesor Vicente Callao 3, 18011 Granada (España)</p> </address>
+            <p> Desarrollado por: Ivan Ortega Alba</p>
+    </aside>
+    <aside id="social">
+        <p>
+            <a href="mailto:contacto@periodico.com">@</a>
+            <a href="https://plus.google.com/u/0/+IvanOrtegaAlba/posts"> g+</a>
+            <a href="http://lnkd.in/dbypqWX">Ln</a>
+        </p>
+    </aside>
+    </footer>
+
+</aside>
+    </body>
+</html>
